@@ -10,7 +10,7 @@
 template<typename T>
 struct Node
 {
-    const T elem;
+    T elem;
     Node* next;
 
     Node(const T& elem)
